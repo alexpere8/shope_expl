@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Catalog</title>
+	<meta name="description" content="Modern HTML Starter Template">
+	<meta name="keywords" content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+	  <!--[if IE]>
+	   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <![endif]-->
+	</head>
+	<body>
+	<header class="header">
+	<div class="header__inner">
+		<div class="header__logo">
+			<a href="/index.html"><img src="/img/logo.png" alt="brandlucent"></a>
+		</div>
+			
+		<nav class="main-nav">
+			<div class="main-nav__inner">
+				<input class="main-nav__toggle-cb" type="checkbox">
+				<span class="main-nav__toggle-line"></span>
+				<span class="main-nav__toggle-line"></span>
+				<span class="main-nav__toggle-line"></span>
+				<div class="main-nav__drop-down">
+					<ul class="main-nav__list">    
+						<li class="main-nav__item">
+							<a href="/catalog.html" class="main-nav__link">Shop</a>
+							<ul class="main-nav__sub-list">
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Beverages</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Dairy</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Meat</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Spices & Herbs</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Stationery</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Costmetic</a>
+								</li>
+							</ul>
+						</li>
+						<li class="main-nav__item">
+							<a href="/orders.html" class="main-nav__link">Orders</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="/cart.html" class="main-nav__link">Cart</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link">Contact</a>
+						</li>
+					</ul>
+					<ul class="main-nav__btns">
+						<li><a href="#" class="main-nav__first-btn btn-link btn-link_color_wt btn-link_size_m btn-link_rs">Sign Up</a></li>
+						<li><a href="#" class="btn-link btn-link_color_tr btn-link_size_m btn-link_rs">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+	<div class="content-back">
+		<div class="content-back__inner">
+			<a href="#" class="content-back__link"></a><span>Checkout</span>
+		</div>
+	</div>
+	<main class="main">
+		<div class="content-container">
+			<div class="checkout">
+				<div class="checkout__progress">
+					<div class="checkout__state" data-id="state1">
+						<div class="checkout__state-marker checkout__state-marker_active"><div></div></div>
+						<div class="checkout__state-title">Accout Info</div>
+					</div>
+					<div class="checkout__state" data-id="state2">
+						<div class="checkout__state-marker"><div></div></div>
+						<div class="checkout__state-title">Delivery Information</div>
+					</div>
+					<div class="checkout__state" data-id="state3">
+						<div class="checkout__state-marker"><div></div></div>
+						<div class="checkout__state-title">Payment</div>
+					</div>
+				</div>
+				<div class="checkout__content">
+					<div class="checkout__state-innter checkout__form" data-id="state1">
+						<form action="?">
+							<div class="form-row">
+								<label class="field-label" for="ch_full_name">Your fullname*</label>
+								<input class="input-text" type="text" id="ch_full_name" placeholder="Enter your fullname" name="ch_full_name">
+							</div>
+							<div class="form-row">
+								<label class="field-label" for="ch_number">Your Phone Number*</label>
+								<input class="input-text" type="text" id="ch_number" placeholder="+254" name="ch_number">
+							</div>
+							<div class="form-row">
+								<label class="field-label" for="ch_emai">Email address*</label>
+								<input class="input-text" type="text" id="ch_emai" placeholder="Enter email address" name="ch_emai">
+							</div>
+							<div class="form-row">
+								<label class="field-label" for="ch_location">Location*</label>
+								<input class="input-text" type="text" id="ch_location" placeholder="Enter your Location" name="ch_location">
+							</div>
+							<input class="main-btn checkout-save" type="submit" value="Save">
+						</form>
+					</div>
+					<div class="checkout__state-innter checkout__delivery" data-id="state2">
+						<div class="checkout__block-title">
+							<span>User Location Information </span>
+						</div>
+						<div class="checkout__delivery-address">
+							<p>Mabruk Apartments Waudo street,Eastleigh Nairobi </p>
+						</div>
+						<button class="main-btn">Change</button>
+					</div>
+					<div class="checkout__state-innter checkout-payment" data-id="state3">
+						<form action="?">
+							<div class="checkout__payment-inner">
+								<div class="checkout__payment-method">
+									<div class="checkout__block-title"><span>Payment method</span></div>
+									<label class="label-chb-round label-chb-round_payment"><input type="checkbox"><span class="checkbox__inner"></span>Mpesa</label>
+									<label class="label-chb-round label-chb-round_payment"><input type="checkbox"><span class="checkbox__inner"></span>Cash on Delivery</label>
+								</div>
+								<div class="order-summary order-summary_ch">
+									<div class="order-summary__text">
+										<div class="order-summary__title title title_size_regth">
+											<span>Order Summary</span>
+										</div>
+										<div class="order-summary__details">
+											<div class="order-summary__row"><span>Sub Total</span><span>$600</span></div>
+											<div class="order-summary__row"><span>Delivery Fee</span><span>$20</span></div>
+										</div>
+										<div class="order-summary__total order-summary__row">
+											<span>Total</span><span>$620</span>
+										</div>
+									</div>
+									<button class="btn btn_summary">Checkout</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__menu">
+            <div class="footer__menu-lists">
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">Services</li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Email Marketing</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Campaigns</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Branding</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Offline</a></li>
+                </ul>
+
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">About</li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Our Story</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Benefits</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Team</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Careers</a></li>
+                </ul>
+
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">Help</li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">FAQs</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__logo">
+                <a href="#"><img src="/img/logo.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <div class="footer__bottom-links">
+                <a class="footer__bottom-link" href="#">Terms & Conditions</a>
+                <a class="footer__bottom-link" href="#">Privacy Policy</a>
+            </div>
+            <div class="footer__socials socials">
+                <div class="socials__link"><a href="#"><img src="/img/fb.svg" alt=""></a></div>
+                <div class="socials__link"><a href="#"><img src="/img/twitter.svg" alt=""></a></div>
+                <div class="socials__link"><a href="#"><img src="/img/instagram.svg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
+	</body>
+</html>

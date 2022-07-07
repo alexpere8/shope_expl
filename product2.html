@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Catalog</title>
+	<meta name="description" content="Modern HTML Starter Template">
+	<meta name="keywords" content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+	  <!--[if IE]>
+	   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <![endif]-->
+	</head>
+	<body>
+	<header class="header">
+	<div class="header__inner">
+		<div class="header__logo">
+			<a href="/index.html"><img src="/img/logo.png" alt="brandlucent"></a>
+		</div>
+			
+		<nav class="main-nav">
+			<div class="main-nav__inner">
+				<input class="main-nav__toggle-cb" type="checkbox">
+				<span class="main-nav__toggle-line"></span>
+				<span class="main-nav__toggle-line"></span>
+				<span class="main-nav__toggle-line"></span>
+				<div class="main-nav__drop-down">
+					<ul class="main-nav__list">    
+						<li class="main-nav__item">
+							<a href="/catalog.html" class="main-nav__link">Shop</a>
+							<ul class="main-nav__sub-list">
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Beverages</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Dairy</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Meat</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Spices & Herbs</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Stationery</a>
+								</li>
+								<li class="main-nav__item main-nav__sub-item">
+									<a href="#" class="main-nav__link">Costmetic</a>
+								</li>
+							</ul>
+						</li>
+						<li class="main-nav__item">
+							<a href="/orders.html" class="main-nav__link">Orders</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="/cart.html" class="main-nav__link">Cart</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link">Contact</a>
+						</li>
+					</ul>
+					<ul class="main-nav__btns">
+						<li><a href="#" class="main-nav__first-btn btn-link btn-link_color_wt btn-link_size_m btn-link_rs">Sign Up</a></li>
+						<li><a href="#" class="btn-link btn-link_color_tr btn-link_size_m btn-link_rs">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+	<main class="main">
+		<div class="product-details">
+			<div class="product-details__inner">
+				<div class="product-details__img">
+					<img src="/img/products/prod5.jpg" alt="">
+				</div>
+				<div class="product-details__data">
+					<div class="product-details__properties">
+						<h1 class="product-details__title title title_thin title_green">Ice Cream Sundae.</h1>
+						<div class="product-details__field">
+							<div class="product-detaild__label"><span>Price</span></div>
+							<div class="product-detaild__velue"><span>$20</span></div>
+						</div>
+						<div class="product-details__desctiption">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Aliquam molestie ultrices donec pulvinar quis est bibendum suspendisse viverra.</p>
+						</div>
+						<div class="product-details__field">
+							<div class="product-detaild__label"><span>Quantity</span></div>
+						</div>
+					</div>
+					<div class="product-counter product-details__counter product-counter_big">
+						<div class="product-counter__btn product-counter__mn"><span>-</span></div>
+						<input type="number" min="0" max="1000" value="1" class="product-counter__count">
+						<div class="product-counter__btn product-counter__pl"><span>+</span></div>
+					</div>
+					<div class="product-details__actions">
+						<button class="product-details__add">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="like-products-wr">
+    <div class="like-products">
+        <div class="popular-products__inner">
+            <div class="popular-products__top">
+                <h2 class="title title_size_reg title_green">Products you may like</h2>
+                <div class="arrows-group">
+                    <div class="arrow arrows-group__left"></div>
+                    <div class="arrow arrows-group__right"></div>
+                </div>
+            </div>
+        
+            <div class="popular-products__items swiper popular-products-swiper">
+                <div class="swiper-wrapper">
+                    <div class="product-card_shadowed swiper-slide">
+                        <div class="product-card product-card__inner_cart product-card__inner_shadowed swiper-slide">
+                            <div class="product-card__img"><img src="/img/products/prod4.jpg" alt=""></div>
+                            <div class="title product-card__title title product-card__title_green">
+                                <a href="#">Eco-Shampoo</a>
+                            </div>
+                            <div class="product-card__price">
+                                <span>$50</span>
+                            </div>
+                            <div class="product-card__footer">
+                                <div class="product-counter">
+                                    <div class="product-counter__btn product-counter__mn"><span>-</span></div>
+                                    <input type="number" min="0" max="1000" value="1" class="product-counter__count">
+                                    <div class="product-counter__btn product-counter__pl"><span>+</span></div>
+                                </div>
+                                <button class="product-card__to-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card_shadowed swiper-slide">
+                        <div class="product-card product-card__inner_cart product-card__inner_shadowed swiper-slide">
+                            <div class="product-card__img"><img src="/img/products/prod2.jpg" alt=""></div>
+                            <div class="title product-card__title title product-card__title_green">
+                                <a href="#">Cabbage</a>
+                            </div>
+                            <div class="product-card__price">
+                                <span>$20</span>
+                            </div>
+                            <div class="product-card__footer">
+                                <div class="product-counter">
+                                    <div class="product-counter__btn product-counter__mn"><span>-</span></div>
+                                    <input type="number" min="0" max="1000" value="1" class="product-counter__count">
+                                    <div class="product-counter__btn product-counter__pl"><span>+</span></div>
+                                </div>
+                                <button class="product-card__to-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card_shadowed swiper-slide">
+                        <div class="product-card product-card__inner_cart product-card__inner_shadowed swiper-slide">
+                            <div class="product-card__img"><img src="/img/products/prod7.jpg" alt=""></div>
+                            <div class="title product-card__title title product-card__descr_green">
+                                <a href="#">Hand Sanitizer</a>
+                            </div>
+                            <div class="product-card__price">
+                                <span>$20</span>
+                            </div>
+                            <div class="product-card__footer">
+                                <div class="product-counter">
+                                    <div class="product-counter__btn product-counter__mn"><span>-</span></div>
+                                    <input type="number" min="0" max="1000" value="1" class="product-counter__count">
+                                    <div class="product-counter__btn product-counter__pl"><span>+</span></div>
+                                </div>
+                                <button class="product-card__to-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card_shadowed swiper-slide">
+                        <div class="product-card product-card__inner_cart product-card__inner_shadowed swiper-slide">
+                            <div class="product-card__img"><img src="/img/products/prod8.jpg" alt=""></div>
+                            <div class="title product-card__title title product-card__title_green">
+                                <a href="#">Beef Steak</a>
+                            </div>
+                            <div class="product-card__price">
+                                <span>$20</span>
+                            </div>
+                            <div class="product-card__footer">
+                                <div class="product-counter">
+                                    <div class="product-counter__btn product-counter__mn"><span>-</span></div>
+                                    <input type="number" min="0" max="1000" value="1" class="product-counter__count">
+                                    <div class="product-counter__btn product-counter__pl"><span>+</span></div>
+                                </div>
+                                <button class="product-card__to-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card_shadowed swiper-slide">
+                        <div class="product-card product-card__inner_cart product-card__inner_shadowed swiper-slide">
+                            <div class="product-card__img"><img src="/img/products/prod5.jpg" alt=""></div>
+                            <div class="title product-card__title title product-card__title_green">
+                                <a href="#">Ice Cream Sundae</a>
+                            </div>
+                            <div class="product-card__price">
+                                <span>$20</span>
+                            </div>
+                            <div class="product-card__footer">
+                                <div class="product-counter">
+                                    <div class="product-counter__btn product-counter__mn"><span>-</span></div>
+                                    <input type="number" min="0" max="1000" value="1" class="product-counter__count">
+                                    <div class="product-counter__btn product-counter__pl"><span>+</span></div>
+                                </div>
+                                <button class="product-card__to-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	</main>
+
+	<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__menu">
+            <div class="footer__menu-lists">
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">Services</li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Email Marketing</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Campaigns</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Branding</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Offline</a></li>
+                </ul>
+
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">About</li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Our Story</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Benefits</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Team</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Careers</a></li>
+                </ul>
+
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">Help</li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">FAQs</a></li>
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__logo">
+                <a href="#"><img src="/img/logo.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <div class="footer__bottom-links">
+                <a class="footer__bottom-link" href="#">Terms & Conditions</a>
+                <a class="footer__bottom-link" href="#">Privacy Policy</a>
+            </div>
+            <div class="footer__socials socials">
+                <div class="socials__link"><a href="#"><img src="/img/fb.svg" alt=""></a></div>
+                <div class="socials__link"><a href="#"><img src="/img/twitter.svg" alt=""></a></div>
+                <div class="socials__link"><a href="#"><img src="/img/instagram.svg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+	<div class="popup popup_cart">
+		<div class="popup__inner popup__inner_cart">
+			<div class="popup__close">
+			</div>
+			<div class="popup__title-cart">
+				<span>This item was added to your Cart.</span>
+			</div>
+			<div class="popup__cart-img">
+				<img src="/img/productd.png" alt="">
+			</div>
+			<div class="popup__cart-product">
+				<span>Eco-Face cleanser</span>
+			</div>
+			<div class="popup__cart-price">
+				<span>$100</span>
+			</div>
+			<button class="btn btn_checkout">Checkout</button>
+			<div><a href="#" class="popup__cart-link">View Cart</a></div>
+		</div>
+	</div>
+	<script src="js/jquery-3.6.0.min.js"></script>
+
+	<script src="js/script.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
+	</body>
+</html>
